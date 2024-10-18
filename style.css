@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 850px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header,
+figure,
+aside,
+section,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 32px;
+  background-color: #feafe8;
+}
+
+.header {
+  /* Ваш код */
+}
+
+.pic {
+  /* Ваш код */
+}
+
+.aside {
+  /* Ваш код */
+}
+
+.promo {
+  /* Ваш код */
+}
+
+.footer {
+  /* Ваш код */
+}
